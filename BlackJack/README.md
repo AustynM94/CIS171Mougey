@@ -1,6 +1,6 @@
-# Project Title
+# BlackJack
 
-One Paragraph of project description goes here
+Create a program in which a user plays a simple version of the card game 21 against the computer. The computer will run a network server process allowing client players to connect. Each player is initially dealt two cards from a standard deck of 52. Random numbers will represent the cards from 1 to 10. After seeing their hand the user then the house (computer) are given the opportunity to take additional cards (hit me). The hand that comes the closest to 21 without exceeding 21 wins the game. A draw results if both players have the same score.
 
 ## Example Output
 
@@ -10,34 +10,18 @@ This image will display as your example output. Name the image README.jpg in you
 
 ## Analysis Steps
 
-This section should restate the assignment and explain how you analyzed the requirements in order 
-to develop a solution.
+I used an earlier client server program for the basis of this assignment and classes to handle the deck and cards
 
 ### Design
 
-How did you approach your program design? Did you use multiple classes to define various objects?
-
-```
-Give examples
-```
+I used the server class as the main then I used a card class to define the cards, and a deck class to create the decks
+I used the server to draw and do all the work for finding who won, woh lost and check if the player went over 21 or got 21
+Then the server would send a number to the client and the client would use that number to display the correct output for the player.
 
 ### Testing
 
-A step by step series of examples that you developed to properly test the program. 
-
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
+I made some debug statements to see if the deck would shuffle correctly or deal correctly and display that in a println
+I also just played the game to see if it was adding correctly and checking if the server would send the correct number to the client
 
 ## Notes
 
