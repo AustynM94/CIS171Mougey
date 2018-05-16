@@ -1,6 +1,6 @@
-# Project Title
+# Exc31_09
 
-One Paragraph of project description goes here
+Write a program that enables two users t ochat.
 
 ## Example Output
 
@@ -17,9 +17,9 @@ to develop a solution.
 
 How did you approach your program design? Did you use multiple classes to define various objects?
 
-```
-Give examples
-```
+I created a folder for the server and client, and a class for each.
+The server set up the connection and the client would connect
+They both had a text field to type and a text area to display the chat
 
 ### Testing
 
@@ -27,15 +27,12 @@ A step by step series of examples that you developed to properly test the progra
 
 Say what the step will be
 
-```
-Give the example
-```
+I would make changes to the way the server and client would connect to each other then run the program to see if it would work.
 
 And repeat
 
-```
-until finished
-```
+I would also test if they would send text back and forth, I could get the client to send text to the server but it took a while to get the 
+client to send it to the server.
 
 End with an example of getting some data out of the system or using it for a little demo
 
